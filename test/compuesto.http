@@ -1,0 +1,4 @@
+### GET Request (Reporte Detallado por Usuario)
+
+GET http://127.0.0.1:5000/reportes-completo/93
+Authorization: Bearer MI_TOKEN_SEGURO_12345

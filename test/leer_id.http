@@ -1,0 +1,3 @@
+### GET Request (Leer Reporte por ID)
+GET http://127.0.0.1:5000/rep/1
+Authorization: Bearer MI_TOKEN_SEGURO_12345

@@ -1,0 +1,9 @@
+### PUT Request (Actualizar Reporte por ID)
+PUT http://127.0.0.1:5001/rep/1
+Content-Type: application/json
+Authorization: Bearer MI_TOKEN_SEGURO_12345
+
+{
+  "FREREP": "TERCERA VEZ",
+  "OBSREP": "Cableado reparado, se actualiza la observación."
+}

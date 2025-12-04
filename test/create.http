@@ -1,0 +1,15 @@
+### POST Request (Crear Nuevo Reporte)
+POST http://127.0.0.1:5000/rep
+Content-Type: application/json
+Authorization: Bearer MI_TOKEN_SEGURO_12345
+
+{
+  "CONREP": true,
+  "FECEVE": "2025-12-04",
+  "FECREP": "2025-12-04 10:15:00",
+  "FREREP": "SEGUNDA VEZ",
+  "OBSREP": "Se observó un problema de cableado en el área de descanso.",
+  "LUGREP": 1,
+  "CANREP": 1,
+  "PERREP": 93
+}
